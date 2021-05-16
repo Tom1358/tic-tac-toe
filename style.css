@@ -1,0 +1,23 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.grid div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom:  5px;
+}
+
+.playerX {
+    background-image: url('cross.png');
+}
+
+.playerO {
+    background-image: url('nought.png');
+}
